@@ -1,0 +1,191 @@
+@charset "UTF-8";
+/* oсновні стилі */
+/* Головний фон сторінки #FFFFFF */
+/* Головний колір тексту #212121 */
+/* Другорядний колір тексту #757575 */
+/* Фон футера #2F303A */
+/* Фон секції послуги background: #2F303A; */
+/* .............................................................................. */
+/* Спільні стилі для всіх сторінок ................................................ */
+html {
+  box-sizing: border-box;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+h1, h2, h3, ul, li, p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 0px;
+}
+
+header {
+  background: #FFFFFF;
+}
+
+body {
+  background: var(--main-page-bascground);
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+@media screen and (min-width: 350px) {
+  .container {
+    width: 350px;
+  }
+}
+@media screen and (min-width: 480px) {
+  .container {
+    width: 480px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .container {
+    width: 768px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1200px;
+  }
+}
+ul {
+  list-style: none;
+}
+
+.section {
+  width: 100%;
+}
+@media screen and (min-width: 1200px) {
+  .section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .section {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}
+.section--no-padding-top {
+  padding-top: 0;
+}
+.section--background {
+  background: #F5F4FA;
+  width: 100%;
+}
+
+.section__title {
+  font-weight: 700;
+  line-height: 1.2;
+  text-align: center;
+  color: #212121;
+}
+@media screen and (max-width: 1199px) {
+  .section__title {
+    margin-bottom: 30px;
+    font-size: 28px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .section__title {
+    margin-bottom: 50px;
+    font-size: 36px;
+  }
+}
+
+.section__title-none {
+  display: none;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+@media screen and (min-width: 340px) and (max-width: 479px) {
+  img {
+    width: 150px;
+  }
+}
+@media screen and (min-width: 480px) {
+  img {
+    width: 200px;
+  }
+}
+
+a {
+  text-decoration: none;
+}
+
+h2, p {
+  font-size: small;
+}
+
+header {
+  border: blue 1px solid;
+}
+
+.site-navigation {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu-container__nav {
+  padding: 0 10px;
+}
+
+.site-navigation__link {
+  padding: 10px 0;
+  display: block;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cards--flex {
+  flex-wrap: wrap;
+}
+
+.cards__item {
+  margin-bottom: 30px;
+  display: block;
+}
+
+.cards__link {
+  display: block;
+}
+
+.cards__text {
+  padding: 15px;
+  border: 1px solid #eee;
+}
+
+.cards__title {
+  margin-bottom: 10px;
+}
+
+footer {
+  border: blue 1px solid;
+}
+
+footer {
+  border: blue 1px solid;
+}/*# sourceMappingURL=main.css.map */

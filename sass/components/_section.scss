@@ -1,0 +1,27 @@
+.cards {
+    display: flex;
+    
+    justify-content: space-between;
+}
+.cards--flex {
+  flex-wrap: wrap;
+}
+
+.cards__item {
+    margin-bottom: 30px;
+    display: block;
+}
+
+.cards__link {
+    display: block;
+
+}
+
+.cards__text {
+    padding: 15px;
+    border: 1px solid #eee;
+}
+
+.cards__title {
+    margin-bottom: 10px;
+}

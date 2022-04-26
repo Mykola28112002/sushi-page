@@ -1,0 +1,18 @@
+header {
+    border: blue 1px solid;
+}
+.site-navigation {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-container__nav {
+    padding: 0 10px;
+}
+.site-navigation__link {
+    padding: 10px 0;
+    display: block;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.2;
+}

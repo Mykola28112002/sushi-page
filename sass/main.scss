@@ -1,0 +1,9 @@
+/* oсновні стилі */
+@import "./utils/variables";
+@import "./base/basic-styles";
+
+@import "./components/common";
+@import "./components/_cap.scss";
+@import "./components/section";
+@import "./components/footer";
+@import "./components/menu;
